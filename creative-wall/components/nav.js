@@ -6,7 +6,7 @@ export default function Nav(){
     const [user, loading] = useAuthState(auth);
 
     return (
-        <nav className="flex justify-between items-center py-10">
+        <nav className="flex justify-between items-center py-5 sticky top-0 bg-white">
             <Link href="/">
                 <button className="text-lg font-medium">
                     Creative Minda
